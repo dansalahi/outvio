@@ -20,7 +20,7 @@ export const OrderTablesRow: FC<OrderRowProps> = ({
 }) => {
 
 	const cellClasses =
-		'text-center align-middle px-5 py-5 border-b border-gray-200 bg-white text-sm leading-none '
+		'text-center align-middle px-5 py-4 border-b border-gray-200 bg-white text-sm leading-none '
 
 	const containerClasses = 'text-gray-900 whitespace-no-wrap'
 
