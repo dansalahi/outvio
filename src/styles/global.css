@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 
+
+@layer base {
+  body {
+   background-color: #F3F4F6;
+  }
+}
+
 @layer components {
   .form-group {
     @apply flex items-center mb-4;
