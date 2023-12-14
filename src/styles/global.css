@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .form-group {
+    @apply flex items-center mb-4;
+  }
+	.form-input {
+		@apply w-full px-4 py-2 bg-gray-200 border rounded-none focus:outline-none focus:ring-2 focus:ring-black;
+	}
+}
+
+/**
+* Fix table row heights 
+*/
+.fixed-height {
+  height: 50px; /*fixed height for table rows */ 
+}
+
+.auto-height {
+  height: calc(100% - 100px); /* Remaining height assigned to a non visible row */
+}
+
+@import url('./fonts.css');
