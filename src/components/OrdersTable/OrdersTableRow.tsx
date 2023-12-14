@@ -3,7 +3,7 @@ import { twMerge } from 'tailwind-merge'
 import { OrderUtils } from "../../domain/Order/OrderUtils"
 import { FC } from 'react'
 
-interface OrderRowProps {
+type OrderRowProps = {
 	id: string
 	date: string
 	total: number

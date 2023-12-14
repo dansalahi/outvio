@@ -1,11 +1,11 @@
 import { FC } from "react";
 
-interface BadgeProps {
+type Props = {
     children: string;
     className?: string;
 }
 
-const Badge: FC<BadgeProps> = ({ children, className }) => {
+const Badge: FC<Props> = ({ children, className }) => {
     const baseClasses = 'inline-block text-xs font-normal rounded-full px-3 py-1';
     const combinedClasses = `${baseClasses} ${className || ''}`;
 

@@ -134,8 +134,7 @@ const OrderModal: FC<OrderModalProps> = ({
 
 export default OrderModal
 
-// Define your OrderModalProps interface as needed
-interface OrderModalProps {
+type OrderModalProps = {
 	isOpen: boolean
 	onClose: () => void
 	onAddOrder: (order: Order) => void

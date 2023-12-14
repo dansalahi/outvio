@@ -57,7 +57,7 @@ const OrdersTable: FC = () => {
   );
 };
 
-interface RenderTableOrMessageProps {
+type RenderTableOrMessageProps = {
   items: Order[];
   handleSort: (field: SortField) => void;
   getSortIcon: (field: SortField) => string;
