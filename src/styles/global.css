@@ -23,7 +23,7 @@
 * Fix table row heights 
 */
 .fixed-height {
-  height: 50px; /*fixed height for table rows */ 
+  height: 40px; /*fixed height for table rows */ 
 }
 
 .auto-height {
